@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeWebApi.Tests", "Recip
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{7A90D715-E9C8-4434-B405-894499E7B7BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleQuickTester", "ConsoleQuickTester\ConsoleQuickTester.csproj", "{50A6AFB1-2442-434B-B414-4C813D4C176F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,16 @@ Global
 		{7A90D715-E9C8-4434-B405-894499E7B7BD}.Release|ARM.ActiveCfg = Release|Any CPU
 		{7A90D715-E9C8-4434-B405-894499E7B7BD}.Release|x64.ActiveCfg = Release|Any CPU
 		{7A90D715-E9C8-4434-B405-894499E7B7BD}.Release|x86.ActiveCfg = Release|Any CPU
+		{50A6AFB1-2442-434B-B414-4C813D4C176F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A6AFB1-2442-434B-B414-4C813D4C176F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A6AFB1-2442-434B-B414-4C813D4C176F}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{50A6AFB1-2442-434B-B414-4C813D4C176F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{50A6AFB1-2442-434B-B414-4C813D4C176F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{50A6AFB1-2442-434B-B414-4C813D4C176F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A6AFB1-2442-434B-B414-4C813D4C176F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A6AFB1-2442-434B-B414-4C813D4C176F}.Release|ARM.ActiveCfg = Release|Any CPU
+		{50A6AFB1-2442-434B-B414-4C813D4C176F}.Release|x64.ActiveCfg = Release|Any CPU
+		{50A6AFB1-2442-434B-B414-4C813D4C176F}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

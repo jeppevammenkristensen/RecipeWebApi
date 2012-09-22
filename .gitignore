@@ -80,6 +80,9 @@ ipch/
 # ReSharper is a .NET coding add-in
 _ReSharper*
 
+trunk/lib/RavenDb/Server/data/
+trunk/lib/RavenDb/Server/logs/
+
 # Installshield output folder
 [Ee]xpress
 

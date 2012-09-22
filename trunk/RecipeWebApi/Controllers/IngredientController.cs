@@ -11,25 +11,30 @@ namespace RecipeWebApi.Controllers
     public class IngredientController : ExtendedApiController
     {
         // GET api/ingredient
-        public IEnumerable<string> Get()
+        public IEnumerable<Ingredient> Get()
         {
-            return new string[] { "value1", "value2" };
+            return Session.Query<Ingredient>().Take(50);
         }
 
         // GET api/ingredient/5
-        public string Get(int id)
+        public Ingredient Get(string id)
         {
-            return "value";
+            return Session.Load<Ingredient>(id);
         }
 
         // POST api/ingredient
-        public void Post([FromBody]string value)
+        public void Post([FromBody]Ingredient value)
         {
+            Session.Store(value);
         }
 
         // PUT api/ingredient/5
-        public void Put(int id, [FromBody]Ingredient value)
+        public void Put(string id, [FromBody]Ingredient value)
         {
+            var result = Session.Load<Ingredient>("ingredients/" + id);
+            if (result == null)
+                throw new HttpResponseException(HttpStatusCode.NotFound);
+
             Session.Store(value);
         }
 
