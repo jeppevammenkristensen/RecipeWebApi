@@ -1,7 +1,4 @@
-﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace SharedLibrary
 {
@@ -17,12 +14,5 @@ namespace SharedLibrary
         public string Description { get; set; }
 
         public List<StorageOption> StorageOptions { get; set; }
-    }
-
-    public class StorageOption
-    {
-        public string Location { get; set; }
-        public TimeSpan TimeSpan { get; set; }
-        public string Comment { get; set; }
     }
 }
